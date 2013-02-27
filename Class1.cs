@@ -45,15 +45,16 @@ namespace Ejercicio_4_3_7
         }
 
         public void PonerLentillas7(string colorLentillas)
-        {
-            if (comprobarColor7(colorLentillas))
-                this.colorOjos7 = colorLentillas;
-        }
+            {
+                if (comprobarColor7(colorLentillas))
+                    this.colorOjos7  = colorLentillas;
+            }
 
         private static bool comprobarColor7(string colorLentillas)
         {
-            return colorLentillas.Equals("azul") || colorLentillas.Equals("marron") || colorLentillas.Equals("verde");
+            return colorLentillas.Equals("verde") || colorLentillas.Equals("azul") || colorLentillas.Equals("marron");
         }
+
 
 
         public void Engordar7(int cantidad)
