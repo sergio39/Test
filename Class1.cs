@@ -33,8 +33,10 @@ namespace Ejercicio_4_3_7
 
         public string ColorOjos7
         {
-            get { return colorOjos7; }
-            set { colorOjos7 = value; }
+            get { return colorOjos7; 
+            }
+            set { colorOjos7 = value; 
+            }
         }
         private string colorPelo7;
 
