@@ -22,15 +22,20 @@ namespace Ejercicio_4_3_7
 
         public void PonerLentillas7(string colorLentillas)
         {
-            if (colorLentillas.Equals("amarillo") || colorLentillas.Equals("blanco") || colorLentillas.Equals("azul") || colorLentillas.Equals("rojo") || colorLentillas.Equals("negro"))
+            if (comprobarColor7(colorLentillas))
                 this.colorOjos7 = colorLentillas;
+        }
+
+        private static bool comprobarColor7(string colorLentillas)
+        {
+            return colorLentillas.Equals("azul") || colorLentillas.Equals("marron") || colorLentillas.Equals("verde");
         }
 
 
         public void Engordar7(int cantidad)
         {
             int nuevo_peso = this.peso7 + cantidad;
-            if (nuevo_peso < 0 || nuevo_peso > 200)
+            if (nuevo_peso > 180)
             {
                 Console.WriteLine("Cantidad incorrecta");
             }
@@ -45,7 +50,7 @@ namespace Ejercicio_4_3_7
         public void Adelgazar7(int cantidad)
         {
             int nuevo_peso = this.peso7 - cantidad;
-            if (nuevo_peso < 0 || nuevo_peso > 200)
+            if (nuevo_peso < 40)
             {
                 Console.WriteLine("Cantidad incorrecta");
             }
