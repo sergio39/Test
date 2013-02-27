@@ -1,0 +1,5 @@
+c:\users\sergio\documents\visual studio 2010\Projects\ClassLibrary7\ClassLibrary7\obj\Debug\ResolveAssemblyReference.cache
+c:\users\sergio\documents\visual studio 2010\Projects\ClassLibrary7\ClassLibrary7\bin\Debug\ClassLibrary7.dll
+c:\users\sergio\documents\visual studio 2010\Projects\ClassLibrary7\ClassLibrary7\bin\Debug\ClassLibrary7.pdb
+c:\users\sergio\documents\visual studio 2010\Projects\ClassLibrary7\ClassLibrary7\obj\Debug\ClassLibrary7.dll
+c:\users\sergio\documents\visual studio 2010\Projects\ClassLibrary7\ClassLibrary7\obj\Debug\ClassLibrary7.pdb
