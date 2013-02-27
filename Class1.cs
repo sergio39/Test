@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Ejercicio_4_3_7
 {
+
     class Persona7
     {
         public Persona7(int altura, int peso, string colorOjos, string colorPelo)
