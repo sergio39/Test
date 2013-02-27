@@ -42,8 +42,10 @@ namespace Ejercicio_4_3_7
 
         public string ColorPelo7
         {
-            get { return colorPelo7; }
-            set { colorPelo7 = value; }
+            get { return colorPelo7; 
+            }
+            set { colorPelo7 = value; 
+            }
         }
 
         public void PonerLentillas7(string colorLentillas)
