@@ -15,10 +15,34 @@ namespace Ejercicio_4_3_7
             this.peso7 = peso;
         }
 
-        public int peso7;
-        public int altura7;
-        public string colorOjos7;
-        public string colorPelo7;
+        private int peso7;
+
+        public int Peso7
+        {
+            get { return peso7; }
+            set { peso7 = value; }
+        }
+        private int altura7;
+
+        public int Altura7
+        {
+            get { return altura7; }
+            set { altura7 = value; }
+        }
+        private string colorOjos7;
+
+        public string ColorOjos7
+        {
+            get { return colorOjos7; }
+            set { colorOjos7 = value; }
+        }
+        private string colorPelo7;
+
+        public string ColorPelo7
+        {
+            get { return colorPelo7; }
+            set { colorPelo7 = value; }
+        }
 
         public void PonerLentillas7(string colorLentillas)
         {
